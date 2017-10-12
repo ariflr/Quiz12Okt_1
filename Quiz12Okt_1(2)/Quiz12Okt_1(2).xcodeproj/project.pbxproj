@@ -14,6 +14,8 @@
 		120986711F8F11BE00D90270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1209866F1F8F11BE00D90270 /* LaunchScreen.storyboard */; };
 		1209867C1F8F11BE00D90270 /* Quiz12Okt_1_2_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209867B1F8F11BE00D90270 /* Quiz12Okt_1_2_Tests.swift */; };
 		120986871F8F11BE00D90270 /* Quiz12Okt_1_2_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120986861F8F11BE00D90270 /* Quiz12Okt_1_2_UITests.swift */; };
+		120986951F8F18AC00D90270 /* losl.png in Resources */ = {isa = PBXBuildFile; fileRef = 120986941F8F18AC00D90270 /* losl.png */; };
+		120986971F8F1B0F00D90270 /* swift.png in Resources */ = {isa = PBXBuildFile; fileRef = 120986961F8F1B0F00D90270 /* swift.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		120986821F8F11BE00D90270 /* Quiz12Okt_1(2)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz12Okt_1(2)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		120986861F8F11BE00D90270 /* Quiz12Okt_1_2_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz12Okt_1_2_UITests.swift; sourceTree = "<group>"; };
 		120986881F8F11BE00D90270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120986941F8F18AC00D90270 /* losl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = losl.png; sourceTree = "<group>"; };
+		120986961F8F1B0F00D90270 /* swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swift.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				120986661F8F11BE00D90270 /* AppDelegate.swift */,
+				120986961F8F1B0F00D90270 /* swift.png */,
 				120986681F8F11BE00D90270 /* ViewController.swift */,
 				1209866A1F8F11BE00D90270 /* Main.storyboard */,
+				120986941F8F18AC00D90270 /* losl.png */,
 				1209866D1F8F11BE00D90270 /* Assets.xcassets */,
 				1209866F1F8F11BE00D90270 /* LaunchScreen.storyboard */,
 				120986721F8F11BE00D90270 /* Info.plist */,
@@ -236,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				120986711F8F11BE00D90270 /* LaunchScreen.storyboard in Resources */,
+				120986951F8F18AC00D90270 /* losl.png in Resources */,
+				120986971F8F1B0F00D90270 /* swift.png in Resources */,
 				1209866E1F8F11BE00D90270 /* Assets.xcassets in Resources */,
 				1209866C1F8F11BE00D90270 /* Main.storyboard in Resources */,
 			);
@@ -516,6 +524,7 @@
 				1209868D1F8F11BE00D90270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1209868E1F8F11BE00D90270 /* Build configuration list for PBXNativeTarget "Quiz12Okt_1(2)Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				120986901F8F11BE00D90270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		120986911F8F11BE00D90270 /* Build configuration list for PBXNativeTarget "Quiz12Okt_1(2)UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				120986931F8F11BE00D90270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
